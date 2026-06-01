@@ -9,7 +9,7 @@ app = FastAPI()
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["https://tiktok-downloader-jmb.vercel.app"],
+    allow_origins=["*"],
     allow_methods=["POST"]
 )
 
